@@ -1,10 +1,6 @@
 *{
     margin: 0;
 }
-h1{
-    font-size: 1.5rem;
-    font-weight: 700;
-}
 html, body {
  height: 100%;
  background: lightblue;
@@ -32,7 +28,6 @@ main{
     margin: auto;
     text-align: center;
 }
-
 .avatar { 
     width: 10rem;
     margin: 11.5rem auto 0;
@@ -51,13 +46,27 @@ main{
     /* propriedade css que ajuda a tirar a distorção de imagens que tem tamanho modificado. */
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%)
 }
-a{ 
- color: lightgray;
- text-decoration: none;
+h1{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 700;
 }
-li{
-    display: inline;
+a{ 
+ color: var(--gray);
+ text-decoration: none;
+ margin-top: 0.25rem;
+}
+ul{
+    margin-top: 4rem;
+    list-style: none;
+
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    /* apenas o flax e grid podem usar o gap e justfy content. */
+    
 }
 p{
+    margin-top: 2rem;
     font-weight: 400;
 }
