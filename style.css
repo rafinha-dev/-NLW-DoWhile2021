@@ -5,6 +5,12 @@ html, body {
  height: 100%;
  background: lightblue
 }
+
+main{ 
+    background: url(./images/background.svg);
+    width: 375px;
+    height: 812px;
+}
 body{
  display: grid;
  place-items: center;
