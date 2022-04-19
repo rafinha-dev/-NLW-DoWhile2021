@@ -13,7 +13,7 @@ body{
     display: grid;
     color: #E5E5E5;
     place-items: center;
-    /* Display grid propriedade nova muito interessante. */
+    /* Display grid propriedade nova muito interessante. place item center só funciona por causa do grid.*/
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased; 
     /* webkit é usado em alguns navegadores como chrome e safare, esses nagevadores vão usar a font indicada. */
@@ -55,6 +55,12 @@ a{
  color: var(--gray);
  text-decoration: none;
  margin-top: 0.25rem;
+
+ display: flex;
+ gap: 0.75rem;
+
+ justify-content: center;
+ /*  poderia ter usado translate transform. */
 }
 ul{
     margin-top: 4rem;
@@ -64,6 +70,7 @@ ul{
     gap: 0.5rem;
     justify-content: center;
     /* apenas o flax e grid podem usar o gap e justfy content. */
+    /* flex-direction: column; usado para fazer coluna. */
     
 }
 p{
