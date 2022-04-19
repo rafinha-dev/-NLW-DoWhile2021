@@ -36,7 +36,7 @@
                         <img src="./images/instagram.svg" alt="icone instagram">
                     </a>
                 </li>
-                <li class="twiter">
+                <li class="twitter">
                     <a href="">
                         <img src="./images/twiter.svg" alt="">
                     </a>
@@ -48,7 +48,7 @@
         const linksSocialMedia = {
             github: 'jakeliny',
             youtube: 'jakelinygracielly',
-            instagra:  'jakeliny.gracielly',
+            instagram:  'jakeliny.gracielly',
             facebook: 'maykbrito',
             twitter: 'jakelinytec'
         }
@@ -56,8 +56,9 @@
             for(let li of socialLinks.children){
                const social = li.getAtribute('class')
 
-            li.children[0].href = `https://${social}.com/`
-            //    alert(li.children[0].href)
+            li.children[0].href = `https://${social}.com/${linksSocialMedia[social]}`
+              
+            alert(li.childrem[0].href)
             }
         }
         changeLinksSocialMedia()
