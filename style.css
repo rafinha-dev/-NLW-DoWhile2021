@@ -1,22 +1,51 @@
+*{
+    margin: 0;
+}
 h1{
     font-size: 1.5rem;
+    font-weight: 700;
 }
 html, body {
  height: 100%;
- background: lightblue
+ background: lightblue;
 }
-
+body{
+    --gray: #E5E5E5;
+    --back: #202024;
+    /* como declarar uma variavel em uma cor. */
+    /* color: var(--gray); */
+    display: grid;
+    color: #E5E5E5;
+    place-items: center;
+    /* Display grid propriedade nova muito interessante. */
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    /* webkit é usado em alguns navegadores como chrome e safare, esses nagevadores vão usar a font indicada. */
+   }
 main{ 
     background: url(./images/background.svg);
     width: 375px;
     height: 812px;
 }
-body{
- display: grid;
- place-items: center;
- /* Display grid propriedade nova muito interessante. */
+.container{
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+}
+.avatar{ 
+    width: 10rem;
+    margin: 11.5rem auto;
+}
+.avatar > img{
+    /* Aqui eu consigo pegar a imagem do primeiro nível pelo seletor, o segundo nível está dentro de outra tag*/
 }
 a{ 
  color: lightgray;
  text-decoration: none;
+}
+li{
+    display: inline;
+}
+p{
+    font-weight: 400;
 }
