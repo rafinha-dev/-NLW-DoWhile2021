@@ -15,7 +15,7 @@
                 </span>
                 <img src="https://picsum.photos/185/185?random=2" alt="FotoPessoal">
             </div>
-            <h1>Rafael Rodrigues</h1>
+            <h1 id="userName">Rafael Rodrigues</h1>
             <a href="https://www.instagram.com/rafinhadev/">
                 <img src="./images/github.svg" alt="github"> @rafinhadev</a>
             <p>Desenvolvedor web iniciante aprendendo front end na nlw, muitos conceitos novos e interessantes.</p>
@@ -44,23 +44,20 @@
             </ul>
         </div>
     </main>
-    <script> 
-    // essa é a sintaxe de uma função
-    function showMeSomething(texto){
-        alert(texto)
-    }
-    // Para função funcionar preciso chamar ela.
-    
-    // quando estou dentro do objeto eu não uso o igual, ele é usado apenas quando estou passando um valor para uma variável
-    const links = {
-        github: 'jakeliny',
-        youtube: 'jakelinygracielly',
-        instagra:  'jakeliny.gracielly',
-        facebook: 'maykbrito',
-        twitter: 'jakelinytec'
-    }
-    // as funções permitem que eu passe um dado para elas.
-        showMeSomething('links.github')
+    <script>
+        const linksSocialMedia = {
+            github: 'jakeliny',
+            youtube: 'jakelinygracielly',
+            instagra:  'jakeliny.gracielly',
+            facebook: 'maykbrito',
+            twitter: 'jakelinytec'
+        }
+        function changeLinksSocialMedia(texto){
+          document.getElementById('userName').textContent= 'Olívia'
+            
+          userName.textContent = "Marcelo"
+        }
+        changeLinksSocialMedia()
     </script>
 </body>
 </html>
