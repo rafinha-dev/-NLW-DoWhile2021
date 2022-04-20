@@ -5,16 +5,13 @@ const linksSocialMedia = {
     facebook: 'maykbrito',
     twitter: 'jakelinytec'
 }
-function changeLinksSocialMedia(){
-    for(let li of socialLinks.children){
-       const social = li.getAtribute('class')
-
-    li.children[0].href = `https://${social}.com/${linksSocialMedia[social]}`
-      
-    // alert(li.childrem[0].href)
+function changeLinksSocialMedia() {
+   for (let li of socialLinks.children){
+   const social = li.getAttribute('class')
+   alert(social)
     }
 }
-// changeLinksSocialMedia()
+changeLinksSocialMedia()
 
 function getGitHubProfileInfos() {
     const url = `https://api.github.com/users/${linksSocialMedia.github}`
