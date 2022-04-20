@@ -4,7 +4,6 @@
        <title>Document</title>
         <link rel="stylesheet" href="./style.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
-
     </head>
 <body>
     <main>
@@ -44,24 +43,6 @@
             </ul>
         </div>
     </main>
-    <script>
-        const linksSocialMedia = {
-            github: 'jakeliny',
-            youtube: 'jakelinygracielly',
-            instagram:  'jakeliny.gracielly',
-            facebook: 'maykbrito',
-            twitter: 'jakelinytec'
-        }
-        function changeLinksSocialMedia(){
-            for(let li of socialLinks.children){
-               const social = li.getAtribute('class')
-
-            li.children[0].href = `https://${social}.com/${linksSocialMedia[social]}`
-              
-            alert(li.childrem[0].href)
-            }
-        }
-        changeLinksSocialMedia()
-        </script>
+    <script src="./main.js"></script>
 </body>
 </html>
