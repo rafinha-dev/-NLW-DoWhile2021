@@ -7,8 +7,10 @@ const linksSocialMedia = {
 }
 function changeLinksSocialMedia() {
    for (let li of socialLinks.children){
-   const social = li.getAttribute('class')
-   alert(social)
+//    const social = li.getAttribute('class')
+    li.children[0].href = "https://www.youtube.com/jakelinygracielly"
+
+//    alert(li.children[0].href)
     }
 }
 changeLinksSocialMedia()
