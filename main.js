@@ -16,13 +16,16 @@ function changeLinksSocialMedia(){
 }
 // changeLinksSocialMedia()
 
-function getGitHubProfileInfos(){
-    const url = `https://api.github.com/users/RafaelContact${linksSocialMedia.github}`
+function getGitHubProfileInfos() {
+    const url = `https://api.github.com/users/${linksSocialMedia.github}`
 // fetch bate na url e pega o o que a api responde e traz
     
 fetch(url)
     .then(response => response.json())
-    .them(data => alert(data.bio))
+    .then(data => {
+        userName.textContent = data.name
+        userBio.textContent = data.bio
+    })
 }
 
 getGitHubProfileInfos()
