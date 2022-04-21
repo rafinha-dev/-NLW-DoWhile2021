@@ -16,7 +16,7 @@ O proposito de fazer esse site é apenas para praticar e aprender novas tecnolog
 Este projeto pode ter a função de ser um cartão de apresentação com links para rede sociais e pode ser usado como um cartão de apresentação até mesmo para o instagram que não tem espaço suficiente em seus caracteres para colocar muitas redes sociais.
 Serve como um ótimo cartão de apresentação.
 
-![site](https://github.com/RafaelContact/-NLW-Heat---Mission-Origin-DoWhile2021/blob/master/images/dowhile.png)
+![site](https://github.com/RafaelContact/-NLW-Heat---Mission-Origin-DoWhile2021/blob/master/images/crachadesktop.png)
 
 ## Tecnologias utilizadas
 - [x] HTML
