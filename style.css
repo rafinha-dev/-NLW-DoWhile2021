@@ -23,7 +23,7 @@ main{
     width: 100vw;
     min-height: 812px;
     height: 100vh;
-    max-width: 500px;
+    max-width: 400px;
 }
 .container{
     max-width: 250px;
@@ -65,7 +65,7 @@ a{
  /*  poderia ter usado translate transform. */
 }
 ul{
-    margin-top: 4rem;
+    margin-top: 2.5rem;
     list-style: none;
 
     display: flex;
@@ -78,4 +78,14 @@ ul{
 p{
     margin-top: 2rem;
     font-weight: 400;
+}
+@media screen and (min-width: 500px) {
+
+    body, html{
+        background-color: #121214;
+    }
+    main{
+        background-image: url(./images/Desktop.svg);
+        max-width: 1400px;
+    }
 }
