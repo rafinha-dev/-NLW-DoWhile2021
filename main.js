@@ -1,9 +1,9 @@
 const linksSocialMedia = {
-    github: 'jakeliny',
-    youtube: 'jakelinygracielly',
-    instagram:  'jakeliny.gracielly',
-    facebook: 'maykbrito',
-    twitter: 'jakelinytec'
+    github: 'RafaelContact',
+    youtube: '',
+    instagram:  'rafinhadev',
+    facebook: 'Rafael Nunes',
+    twitter: ''
 }
 function changeLinksSocialMedia() {
    for (let li of socialLinks.children){
