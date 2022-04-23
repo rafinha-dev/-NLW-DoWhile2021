@@ -2,36 +2,20 @@
   
 # -NLW-Heat Mission-Origin-DoWhile2021
 
-[![rocketseat](https://github.com/RafaelContact/-NLW-Heat---Mission-Origin-DoWhile2021/blob/master/images/build%20(1).svg)](https://rafaelcontact.github.io/-NLW-Heat---Mission-Origin-DoWhile2021/)
-  
-`clique na logo para abrir o site`  
-  
+![rocketseat](https://github.com/RafaelContact/-NLW-Heat---Mission-Origin-DoWhile2021/blob/master/images/build%20(1).svg)
+    
 </div>
 
-Esse é um site um projeto que aprendi na Dowhile 2021, na epoca eu fiz a primeira aula do evento mas achei que as coisas estavam indo rápido demais, hoje eu decidi tentar fazer novamente e achei surpreendente o conteúdo. 
-Desenvolvi um cartão que a primeira vista eu conseguiria fazer, mas usei tecnologias diferentes como uma visão mais apurada de como desenvolver usando o figma, usar propriedades css como grid , flex , formas de buscar classes e elementos html com css.
+Nesta branch eu estou desenvolvendo a versão pessoal do meu site com integração do google analitcs e a tag do pixel do facebook. 
+Aqui já fiz o teste de velocidade para carregamento do meu site e implementei modificações para que ele se adapte melhor para o mobilie em tempo de carregamento conforme o relatório do pagespeed insights. 
 
+Tenho o objetivo de usar esse site como página pessoal e fazer gerenciamento de trafego para encaminhar pessoas do meu instagram para outras plataformas onde vou estar produzindo conteúdo. 
+Ou para chamar a atenção de recrutadores como um cartão do meu trabalho onde coloco minhas redes sociais , youtube , linkedin e afins. Apenas removendo a logo da rocket até eu ter a minha propria logo pessoal.
 
-O proposito de fazer esse site é apenas para praticar e aprender novas tecnologias. 
-Este projeto pode ter a função de ser um cartão de apresentação com links para rede sociais e pode ser usado como um cartão de apresentação até mesmo para o instagram que não tem espaço suficiente em seus caracteres para colocar muitas redes sociais.
-Serve como um ótimo cartão de apresentação.
+## Ferramentas de gestão
+- [x] pixel do facebook
+- [x] google analitcs
 
-![site](https://github.com/RafaelContact/-NLW-Heat---Mission-Origin-DoWhile2021/blob/master/images/dowhile.png)
-
-## Tecnologias utilizadas
-- [x] HTML
-- [x] CSS
-
-## Novidades que aprendi
-- [x] Figma 'um novo olhar'
-- [x] Grid , flex CSS
-- [x] Lorem image
-- [x] Formas geométricas com CSS (clip-path)
-- [x] Seletores por especificidade
-
-### Faça você também 
-
-Aceite o desafio e faça a sua versão dese site. Aqui fica os requisitos a serem seguidos : ![link](https://app.rocketseat.com.br/node/mission-origin-heat/lesson/stage-1)
 
 # Contato 
 Para saber como foi o processo de criação, sugestões e mais projetos como esse entre em contato e me acompanhe nas redes sociais
