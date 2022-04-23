@@ -6,42 +6,64 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
     <title>Crachá</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NFWJ6W9JK5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+
+        gtag('config', 'G-NFWJ6W9JK5');
+    </script>
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+       {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+       n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+       if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+       n.queue=[];t=b.createElement(e);t.async=!0;
+       t.src=v;s=b.getElementsByTagName(e)[0];
+       s.parentNode.insertBefore(t,s)}(window, document,'script',
+       'https://connect.facebook.net/en_US/fbevents.js');
+       fbq('init', '724148605421562');
+       bq('track', 'PageView');
+       </script>
     </head>
 <body>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=724148605421562&ev=PageView&noscript=1"
+      /></noscript>
     <main>
         <div class="container">
             <div class="avatar">
-                <span style="position: absolute; top: -15px;">
-                    <img src="./images/build (1).svg" alt="seloRocket">
-                </span>
                 <img id="userImage" src="https://picsum.photos/185/185?random=2" alt="FotoPessoal">
             </div>
             <div>
             <h1 id="userName">Rafael Rodrigues</h1>
             <a id="userLink" href="https://www.instagram.com/rafinhadev/">
-                <img  src="./images/github.svg" alt="github"> <span id="userLogin">@rafinhadev </span></a>
+                <img  src="./images/github.svg" alt="github" class="gitamanho"> <span id="userLogin">@rafinhadev </span></a>
             <p id="userBio">Desenvolvedor web iniciante aprendendo front end na nlw, muitos conceitos novos e interessantes.</p>
              </div>
             <ul id="socialLinks">
                 <li class="youtube">
                     <a href="" target="blank">
-                        <img src="./images/youtube.svg" alt="icone youtube">
+                        <img class="tamanho" src="./images/youtube.svg" alt="icone youtube">
                     </a>
                 </li>
                 <li class="facebook">
                     <a href="https://www.facebook.com/profile.php?id=100047693316499" target="blank">
-                        <img src="./images/facebook.svg" alt="icone facebook">
+                        <img class="tamanho" src="./images/facebook.svg" alt="icone facebook">
                     </a>
                 </li>
 
                 <li class="instagram">
                     <a href="https://www.instagram.com/rafinhadev/" target="blank">
-                        <img src="./images/instagram.svg" alt="icone instagram">
+                        <img class="tamanho" src="./images/instagram.svg" alt="icone instagram">
                     </a>
                 </li>
                 <li class="linkedin">
                     <a href="" target="blank">
-                        <img src="./images/linkedin.svg" alt="">
+                        <img class="tamanho" src="./images/linkedin.svg" alt="">
                     </a>
                 </li>
             </ul>

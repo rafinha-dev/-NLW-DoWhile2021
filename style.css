@@ -1,6 +1,10 @@
 *{
     margin: 0;
 }
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(./Roboto/Roboto-Regular.ttf) url(./Roboto/Roboto-Bold.ttf);
+}
 html, body {
  height: 100%;
  background: lightblue;
@@ -36,17 +40,20 @@ main{
     position: relative;
     
 }
-.avatar span{
-    position: absolute;
-    top: -15px;
-    z-index: 1;
-}
 .avatar > img {
     width: 10rem;
     height: 11.5rem;
     object-fit: cover;
     /* propriedade css que ajuda a tirar a distorção de imagens que tem tamanho modificado. */
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%)
+}
+.tamanho{
+    width: 47px;
+    height: 47px;
+}
+.gitamanho{
+    width: 16px;
+    height: 19px;
 }
 h1{
     font-size: 1.5rem;
@@ -79,6 +86,7 @@ p{
     margin-top: 2rem;
     font-weight: 400;
 }
+
 @media screen and (min-width: 500px) {
 
     body, html{
