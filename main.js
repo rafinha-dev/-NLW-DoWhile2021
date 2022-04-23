@@ -5,16 +5,6 @@ const linksSocialMedia = {
     facebook: 'profile.php?id=100047693316499',
     linkedin: 'in/rafael-rodrigues-1b2981129/'
 }
-function changeLinksSocialMedia() {
-   for (let li of socialLinks.children){
-   const social = li.getAttribute('class')
-   
-    li.children[0].href = `https://${social}.com/${linksSocialMedia[social]}`
-
-//    alert(li.children[0].href)
-    }
-}
-// changeLinksSocialMedia()
 
 function getGitHubProfileInfos() {
     const url = `https://api.github.com/users/${linksSocialMedia.github}`
