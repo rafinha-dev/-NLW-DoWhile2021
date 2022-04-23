@@ -5,6 +5,12 @@ html, body {
  height: 100%;
  background: lightblue;
 }
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(./Roboto/Roboto-Bold.ttf) url(./Roboto/Roboto-Regular.ttf);
+}
+
 body{
     --gray: #E5E5E5;
     --back: #202024;
@@ -13,6 +19,8 @@ body{
     display: grid;
     color: #E5E5E5;
     place-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     /* Display grid propriedade nova muito interessante. place item center só funciona por causa do grid.*/
     -webkit-font-smoothing: antialiased; 
     /* webkit é usado em alguns navegadores como chrome e safare, esses nagevadores vão usar a font indicada. */
@@ -67,7 +75,7 @@ a{
  /*  poderia ter usado translate transform. */
 }
 ul{
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     list-style: none;
 
     display: flex;
