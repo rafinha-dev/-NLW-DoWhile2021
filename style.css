@@ -29,6 +29,7 @@ main{
     max-width: 250px;
     margin: auto;
     text-align: center;
+    padding-top: 60px;
 }
 .avatar { 
     width: 10rem;
