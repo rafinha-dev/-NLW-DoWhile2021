@@ -36,6 +36,6 @@ Aceite o desafio e faça a sua versão dese site. Aqui fica os requisitos a sere
 # Contato 
 Para saber como foi o processo de criação, sugestões e mais projetos como esse entre em contato e me acompanhe nas redes sociais
 
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafael-rodrigues-1b2981129/)&nbsp;
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafinhadev/)&nbsp;
 [![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/rafinhadev/)&nbsp; 📫
 [contactrodrigues21@gmail.com](mailto:contactrodrigues21@gmail.com) 📫
