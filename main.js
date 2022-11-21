@@ -1,9 +1,9 @@
 const linksSocialMedia = {
-    github: 'RafaelContact',
+    github: 'rafinha-dev',
     youtube: '',
     instagram:  'rafinhadev',
     facebook: 'profile.php?id=100047693316499',
-    linkedin: 'in/rafael-rodrigues-1b2981129/'
+    linkedin: 'in/rafinhadev/'
 }
 function changeLinksSocialMedia() {
    for (let li of socialLinks.children){
